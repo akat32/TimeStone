@@ -5,6 +5,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/super.css">
+    <script src = "../js/login.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
@@ -15,8 +16,8 @@
       <input type="password" class = "inputPasswd" placeholder="password">
       <br />
       <div class = "btns">
-        <input type="button" class = "loginBtn" value="Login">
-        <input type="button" class = "regBtn" value="sign up">
+        <input type="button" onclock="login();" class = "loginBtn" value="Login">
+        <input type="button" onclick="goReg();" class = "regBtn" value="sign up">
       </div>
     </div>
   </body>
