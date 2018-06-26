@@ -1,0 +1,55 @@
+body{
+  margin : 0;
+  padding : 0;
+  background: linear-gradient(171deg, #0088d7, #004086) fixed;
+  background-color: #004086;
+}
+.Logo{
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 150px;
+  height: 200px;
+  margin: auto;
+  margin-top : 17vh;
+  margin-bottom: 14vh;
+}
+::placeholder{
+  color: #ffffff;
+  opacity: 0.4;
+}
+.inputLogin{
+  margin-left: 23.9vw;
+}
+.inputEmail{
+  width: 52.2vw;
+  height: 3.3vh;
+  border: 0px;
+  border-bottom: 1px solid #ffffff;
+  background-color: rgba( 255, 255, 255, 0);
+}
+.btns{
+  margin-top : 2vh;
+  opacity: 0.8;
+}
+.inputPasswd{
+  width: 52.2vw;
+  height: 3.3vh;
+  border:0px;
+  border-bottom: 1px solid #ffffff;
+  background-color: rgba( 255, 255, 255, 0);
+}
+.loginBtn{
+  color: #ffffff;
+  width: 25.5vw;
+  height: 4.6vh;
+  border: 1px solid #ffffff;
+  background-color: rgba( 255, 255, 255, 0);
+}
+.regBtn{
+  color: #ffffff;
+  width: 25.5vw;
+  height: 4.6vh;
+  border: 1px solid #ffffff;
+  background-color: rgba( 255, 255, 255, 0);
+}
