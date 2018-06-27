@@ -10,15 +10,13 @@
   </head>
   <body>
     <div class = "Logo"></div>
-    <div class = "inputLogin">
-      <input type="email" class = "inputEmail" placeholder="e-mail">
+    <form class = "inputLogin">
+      <input type="email" class = "inputEmail" placeholder="e-mail" required>
       <div style="margin : 0.4vh;"></div>
-      <input type="password" class = "inputPasswd" placeholder="password">
+      <input type="password" class = "inputPasswd" placeholder="password" required>
       <br />
-      <div class = "btns">
-        <input type="button" onclock="login();" class = "loginBtn" value="Login">
-        <input type="button" onclick="goReg();" class = "regBtn" value="sign up">
-      </div>
-    </div>
+      <input type="submit" onclock="login();" class = "loginBtn" value="Login">
+      <input type="button" onclick="goReg();" class = "regBtn" value="sign up">
+    </form>
   </body>
 </html>

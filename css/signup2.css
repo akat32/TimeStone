@@ -2,7 +2,7 @@
   margin-left: 17.4vw;
   margin-top: 40vh;
 }
-#inputEmail{
+#inputName{
   width: 63vw;
   margin-bottom: 4.1vh;
   border: 0px;
@@ -15,7 +15,7 @@
   color:#ffffff;
   opacity: 0.6;
 }
-#inputPasswd{
+#inputPhone{
   color:#ffffff;
   width: 63vw;
   height: 3vh;

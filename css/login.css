@@ -17,17 +17,15 @@
   margin-left: 23.9vw;
 }
 .inputEmail{
+  color: #ffffff;
   width: 52.2vw;
   height: 3.3vh;
   border: 0px;
   border-bottom: 1px solid #ffffff;
   background-color: rgba( 255, 255, 255, 0);
 }
-.btns{
-  margin-top : 2vh;
-  opacity: 0.8;
-}
 .inputPasswd{
+  color: #ffffff;
   width: 52.2vw;
   height: 3.3vh;
   border:0px;
@@ -35,6 +33,8 @@
   background-color: rgba( 255, 255, 255, 0);
 }
 .loginBtn{
+  margin-top : 2vh;
+  opacity: 0.8;
   color: #ffffff;
   width: 25.5vw;
   height: 4.6vh;
@@ -42,6 +42,7 @@
   background-color: rgba( 255, 255, 255, 0);
 }
 .regBtn{
+  opacity: 0.8;
   color: #ffffff;
   width: 25.5vw;
   height: 4.6vh;
