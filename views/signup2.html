@@ -6,14 +6,15 @@
     <link rel="stylesheet" href="css/super.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="js/signup2.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.js"></script>
     <title>Signup</title>
   </head>
   <body>
-    <form class = "inputArea">
+    <form id = "inputArea">
       <input id = "inputName" type="text" placeholder="name" required/><br/>
       <input id = "inputPhone" type="text" placeholder="phone number" required/><br />
       <input type="button" value="back" class = "back" onclick="back()"/>
-      <input type="submit" id = "submit" value="next" onclick="next()"/>
+      <input type="button" id = "submit" value="next" onclick="next()"/>
     </form>
   </body>
 </html>
