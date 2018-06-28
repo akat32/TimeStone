@@ -3,5 +3,5 @@ function back(){
 }
 
 function next(){
-  location.href = "./signup2.html"
+  location.href = "/signup2"
 }
