@@ -26,6 +26,6 @@ app.get('/signup3', (req, res)=>{
   res.render('login.html')
 })
 
-app.listen(3322, ()=>{
+app.listen(3030, ()=>{
   console.log('Server On!')
 })
