@@ -41,8 +41,9 @@
   height: 30vw;
   margin-left: 34vw;
   margin-top:21.1vh;
-  background-color: #ffffff;
   border-radius: 50%;
+  background-color: rgba( 255, 255, 255, 0);
+  border: 1px solid #ffffff;
 }
 .cameraCss{
   background-color: black;
@@ -50,6 +51,7 @@
   height: 33.5%;
   margin : auto;
   margin-top:36%;
+  background-color: #F2F2F2;
   position: relative;
   border-radius: 12%;
 }
@@ -60,7 +62,7 @@
   width: 56%;
   height: 60%;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: #0088d7;
 }
 .inCircle{
   position: absolute;
@@ -68,14 +70,14 @@
   top:20%;
   width: 56%;
   height: 60%;
-  background-color: #000000;
+  background-color: #F2F2F2;
   border-radius: 50%;
 }
 .cameraButton1{
   position: absolute;
   left: 10%;
   top: -10%;
-  border: 3vw solid #000000;
+  border: 3vw solid #F2F2F2;
   border-top-width: 0;
   border-left-color: transparent;
   border-right-color: transparent;
@@ -89,13 +91,13 @@
   width: 30%;
   height: 20%;
   border-radius: 15%;
-  background-color: #000000;
+  background-color: #F2F2F2;
 }
 .cameraButton3{
   position: absolute;
   left: 63%;
   top: -10%;
-  border: 3vw solid #000000;
+  border: 3vw solid #F2F2F2;
   border-top-width: 0;
   border-left-color: transparent;
   border-right-color: transparent;
