@@ -3,5 +3,5 @@ function back(){
 }
 
 function next(){
-  location.href = "/welcome"
+  location.replace('/welcome')
 }
