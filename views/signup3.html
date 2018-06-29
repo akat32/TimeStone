@@ -10,12 +10,24 @@
     <script src="/jquery/jquery.js"></script>
   </head>
   <body>
-    <input type="file" id="profile" capture="camera" accept="image/*">
-    <img id="pic" style="width:100%; height:250px;" />
+    <input type="file" id="profile" class = "profileImg" capture="camera" accept="image/*">
+    <label for="profile">
+      <div class = "cameraCss">
+        <div class = "cameraButton1"></div>
+        <div class = "cameraButton2"></div>
+        <div class = "cameraButton3"></div>
+        <div class = "cameraCircle">
+          <div class = "inCircle">
+          </div>
+        </div>
+      </div>
+    </label>
+    
+    <!-- <img id="pic" style="width:100%; height:250px;" /> -->
     </div>
     <div class = "btns">
       <input type="button" class = "back" value ="back" onclick="back()">
       <input type="submit" id = "submit" value ="next" onclick="next()">
     </div>
-  </body>
+  </body> 
 </html>
