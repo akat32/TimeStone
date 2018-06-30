@@ -3,5 +3,5 @@ function goReg(){
 }
 
 async function login(){
-
+  location.replace('/friend')
 }
