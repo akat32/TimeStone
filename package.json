@@ -4,7 +4,7 @@
   "description": "first!",
   "main": "app.js",
   "scripts": {
-    "start" : "nodemon app.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/akat32/TimeStone/issues"
   },
-  "homepage": "https://github.com/akat32/TimeStone#readme"
+  "homepage": "https://github.com/akat32/TimeStone#readme",
+  "dependencies": {
+    "vue": "^2.5.16"
+  }
 }

@@ -15,7 +15,7 @@ body{
   font-size:2vh;
 }
 .searchArea{
-  height: 3vh;
+  height: 8.5vh;
   position: relative;
 }
 .glass{
@@ -41,4 +41,22 @@ body{
   background-color: #F0F0F0;
   border-bottom: 1px solid #0088d7;
   z-index: 99;
+}
+.friendList{
+  width: 100%;
+  height: 82.5vh;
+}
+#friend{
+  margin:0;
+  padding:0;
+  height: 100%;
+  list-style: none;
+}
+.friendItem{
+  margin:5%;
+  list-style:none;
+  width: 90%;
+  height: 10%;
+  border:0px;
+  border-bottom: 1px solid #0088d7;
 }

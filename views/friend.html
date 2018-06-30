@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="css/friend.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/ic.jpg">
-    <script src = "js/login.js"></script>
+    <script src="https://unpkg.com/vue"></script>
+    <script src = "js/friend.js"></script>
+    <!-- Vue.js  https://kr.vuejs.org/v2/guide/index.html -->
   </head>
   <body>
     <div class = "topBar">
@@ -14,6 +16,13 @@
     <div class = "searchArea">
       <div class = "glass"></div>
       <input type="text" class="search" placeholder="Search your friend!"/>
+    </div>
+    <div class = "friendList">
+      <ul id = "friend">
+        <li v-for="item in items" class = "friendItem">
+          {{ item.message }}
+        </li>
+      </ul>
     </div>
   </body>
 </html>
