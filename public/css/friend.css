@@ -1,31 +1,44 @@
 body{
   margin: 0;
   padding: 0;
+  background-color: #F0F0F0;
 }
 .topBar{
   width:100%;
-  height: 7.8vh;
-  background-color: #0088d7;
+  height: 9vh;
   position:relative;
+  background-color: #0088d7;
 }
-.hamburgerButton{
+::placeholder{
+  text-align: center;
+  color: #6088d7;
+  font-size:2vh;
+}
+.searchArea{
+  height: 3vh;
+  position: relative;
+}
+.glass{
   position: absolute;
-  left:4.4%;
-  top: 40%;
-  width:3.9%;
-  height: 20%;
+  margin: 4% 20%;
+  top:2%;
+  width: 2.5vh;
+  height: 2.5vh;
+  background-image: url('../img/glass.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  z-index: 100;
 }
-.bars{
-  margin:0;
-  padding:0;
-  width:100%;
-  height:100%;
-}
-.bar{
-  width: 100%;
-  height: 16%;
-  background: #ffffff;
-}
-.thisismargindiv{
-  margin-bottom: 26%;
+.search{
+  color: #6088d7;
+  position: absolute;
+  font-size:2vh;
+  margin: 4% 20%;
+  width: 60%;
+  border: 0;
+  text-align: center;
+  background-color: #F0F0F0;
+  border-bottom: 1px solid #0088d7;
+  z-index: 99;
 }
