@@ -3,11 +3,11 @@ window.onload = function(){
     el: '#friend',
     data: {
       items: [
-        { message: 'Foo' },
-        { message: 'Bar' },
-        { message: 'Bar' },
-        { message: 'Bar' },
-        { message: 'Bar' }
+        { message: 'Luda' },
+        { message: 'luda' },
+        { message: '루다' },
+        { message: 'Luda' },
+        { message: '루다' }
       ]
     }
   })

@@ -17,10 +17,12 @@
       <div class = "glass"></div>
       <input type="text" class="search" placeholder="Search your friend!"/>
     </div>
+    <hr style="border: 1px solid #0088d7"/>
     <div class = "friendList">
       <ul id = "friend">
         <li v-for="item in items" class = "friendItem">
-          {{ item.message }}
+          <div class = "profileImg"></div>
+          <div class = "friendName">{{ item.message }}</div>
         </li>
       </ul>
     </div>
