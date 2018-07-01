@@ -3,11 +3,11 @@ window.onload = function(){
     el: '#friend',
     data: {
       items: [
-        { message: 'Luda' },
-        { message: 'luda' },
-        { message: '루다' },
-        { message: 'Luda' },
-        { message: '루다' }
+        { name: 'Luda' , email : "Luda1@naver.com"},
+        { name: 'luda' , email : "Luda2@naver.com"},
+        { name: '루다' , email : "Luda3@naver.com"},
+        { name: 'Luda' , email : "Luda4@naver.com"},
+        { name: '루다' , email : "Luda5@naver.com"}
       ]
     }
   })
