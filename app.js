@@ -31,7 +31,10 @@ app.get('/signup3', (req, res)=>{
 .get('/friend', (req,res)=>{
   res.render('friend.html')
 })
-
+.get('/chat/:email', (req,res)=>{
+  var email = req.params.email
+  res.render('chat.html')
+})
 app.listen(3030, ()=>{
   console.log('Server On!')
 })

@@ -13,7 +13,7 @@ window.onload = function(){
     methods: {
       goChat: function(email){
         var link = '/chat/'+email;
-        location.replace(link)
+        location.href = link
       }
     }
   })
