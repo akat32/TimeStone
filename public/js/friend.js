@@ -9,6 +9,12 @@ window.onload = function(){
         { name: 'Luda' , email : "Luda4@naver.com", img:"http://iwin247.info:3030/img/4.jpg"},
         { name: '루다' , email : "Luda5@naver.com", img:"http://iwin247.info:3030/img/5.jpg"}
       ]
+    },
+    methods: {
+      goChat: function(email){
+        var link = '/chat/'+email;
+        location.replace(link)
+      }
     }
   })
 }

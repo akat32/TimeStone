@@ -21,9 +21,11 @@
     <div class = "friendList">
       <ul id = "friend">
         <li v-for="item in items" class = "friendItem">
-          <img :src="item.img" class="profileImg" />
-          <div class = "friendName">{{ item.name }}</div>
-          <div class = "friendEmail">{{ item.email }}</div>
+          <div v-on:click="goChat(item.email)">
+            <img :src="item.img" class="profileImg" />
+            <div class = "friendName">{{ item.name }}</div>
+            <div class = "friendEmail">{{ item.email }}</div>
+          </div>
         </li>
       </ul>
     </div>
