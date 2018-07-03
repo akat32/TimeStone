@@ -19,3 +19,11 @@ body{
   width: 6%;
   height: 26.2%;
 }
+.name{
+  position: absolute;
+  height: 27.8%;
+  font-size: 2.5vh;
+  color:#fff;
+  left  :13.5%;
+  top: 2.9vh;
+}
