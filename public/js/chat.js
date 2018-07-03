@@ -8,4 +8,10 @@ window.onload = ()=>{
       name : "루다"
     }
   })
+  var day = new Vue({
+    el: ".lastDay",
+    data:{
+      day : "2018 / 07 / 03 / 화요일"
+    }
+  })
 }
