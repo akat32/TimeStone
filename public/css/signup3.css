@@ -5,6 +5,7 @@
   margin-top: 11.6vh;
 }
 .back{
+  font-size: 2vh;
   font-family: 'NotoSansCJKkr-Light';
   margin-top:4.1vh;
   color: #ffffff;
@@ -15,6 +16,7 @@
   background-color: rgba( 255, 255, 255, 0);
 }
 #submit{
+  font-size: 2vh;
   font-family: 'NotoSansCJKkr-Light';
   color: #ffffff;
   width: 30.3vw;

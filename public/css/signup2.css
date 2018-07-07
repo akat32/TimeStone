@@ -1,10 +1,12 @@
 @font-face{font-family: 'NotoSansCJKkr-Light'; src:url('/font/NotoSansCJKkr-hinted/NotoSansCJKkr-Light.otf');}
 
 #inputArea{
+  font-size: 1.8vh;
   margin-left: 17.4vw;
   margin-top: 40vh;
 }
 #inputName{
+  font-size: 1.8vh;
   font-family: 'NotoSansCJKkr-Light';
   width: 63vw;
   margin-bottom: 4.1vh;
@@ -15,24 +17,27 @@
   border-bottom: 1px solid #ffffff;
   text-indent: 1vw;
   background-color: rgba( 255, 255, 255, 0);
+  font-size: 1.8vh;
 }
 ::placeholder{
+  font-size: 1.8vh;
   font-family: 'NotoSansCJKkr-Light';
   color:#ffffff;
   opacity: 0.6;
 }
 #inputPhone{
+  font-size: 1.8vh;
   font-family: 'NotoSansCJKkr-Light';
   color:#ffffff;
   width: 63vw;
   height: 3vh;
-  border: 0px;
   border: 0px solid #ffffff;
   border-bottom: 1px solid #ffffff;
   text-indent: 1vw;
   background-color: rgba( 255, 255, 255, 0);
 }
 .back{
+  font-size: 2vh;
   font-family: 'NotoSansCJKkr-Light';
   margin-top:4.1vh;
   color: #ffffff;
@@ -43,6 +48,7 @@
   background-color: rgba( 255, 255, 255, 0);
 }
 #submit{
+  font-size: 2vh;
   font-family: 'NotoSansCJKkr-Light';
   color: #ffffff;
   width: 30.3vw;
