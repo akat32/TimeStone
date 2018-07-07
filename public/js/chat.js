@@ -14,4 +14,15 @@ window.onload = ()=>{
       day : "2018 / 07 / 03 / 화요일"
     }
   })
+  var chat = new Vue({
+    el: "#log",
+    data: {
+      items: [
+        {img : "", name : "루다", index : "안녕"},
+        {img : "", name : "루다", index : "몰라"},
+        {img : "", name : "루다", index : "안녕"},
+        {img : "", name : "루다", index : "안녕"}
+      ]
+    }
+  })
 }

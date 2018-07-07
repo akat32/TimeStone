@@ -15,14 +15,18 @@
       <div class = "name">{{name}}</div>
     </div>
     <div class = "showDate">
-      <hr class = "line1"/>
+      <div class = "line1"/></div>
       <span class = "lastDay">{{day}}</span>
-      <hr class = "line2"/>
+      <div class = "line2"/></div>
     </div>
     <div class = "chatLog">
       <ul id = "log">
-        <li v-for = "">
-
+        <li v-for = "item in items" class = "chatmsg">
+          <div class = "msg">
+            <img :src = "item.img" class = "profileImg" />
+            <div class = "msgName">{{ item.name }}</div>
+            <div class = "msgIndex">{{ item.index }}</div>
+          </div>
         </li>
       </ul>
     </div>
