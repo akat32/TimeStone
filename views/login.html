@@ -11,12 +11,12 @@
   </head>
   <body>
     <div class = "Logo"></div>
-    <form class = "inputLogin">
+    <form class = "inputLogin" onsubmit="return login()">
       <input type="email" class = "inputEmail" placeholder="e-mail" required>
       <div style="margin : 0.4vh;"></div>
       <input type="password" class = "inputPasswd" placeholder="password" required>
       <br />
-      <input type="submit" onclock="login();" class = "loginBtn" value="Login">
+      <input type="submit" class = "loginBtn" value="Login">
       <input type="button" onclick="goReg();" class = "regBtn" value="Sign up">
     </form>
   </body>

@@ -2,6 +2,7 @@ function goReg(){
   location.href = "/signup1";
 }
 
-async function login(){
+function login(){
   location.replace('/friend')
+  return false;
 }
