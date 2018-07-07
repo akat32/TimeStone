@@ -1,8 +1,10 @@
+@font-face{font-family: 'NotoSansCJKkr-Light'; src:url('/font/NotoSansCJKkr-hinted/NotoSansCJKkr-Light.otf');}
 .inputArea{
   margin-left: 17.4vw;
   margin-top: 40vh;
 }
 #inputEmail{
+  font-family: 'NotoSansCJKkr-Light';
   width: 63vw;
   margin-bottom: 4.1vh;
   border: 0px;
@@ -14,10 +16,12 @@
   background-color: rgba( 255, 255, 255, 0);
 }
 ::placeholder{
+  font-family: 'NotoSansCJKkr-Light';
   color:#ffffff;
   opacity: 0.6;
 }
 #inputPasswd{
+  font-family: 'NotoSansCJKkr-Light';
   color:#ffffff;
   width: 63vw;
   height: 3vh;
@@ -28,6 +32,7 @@
   background-color: rgba( 255, 255, 255, 0);
 }
 .back{
+  font-family: 'NotoSansCJKkr-Light';
   margin-top:4.1vh;
   color: #ffffff;
   width: 30.3vw;
@@ -37,6 +42,7 @@
   background-color: rgba( 255, 255, 255, 0);
 }
 #submit{
+  font-family: 'NotoSansCJKkr-Light';
   color: #ffffff;
   width: 30.3vw;
   height: 4.6vh;

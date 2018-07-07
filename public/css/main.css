@@ -1,16 +1,18 @@
+@font-face{font-family: 'NotoSansCJKkr-Regular'; src:url('/font/NotoSansCJKkr-hinted/NotoSansCJKkr-Regular.otf');}
+
 .Logo{
   background-image: url("../img/logo.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 150px;
   height: 200px;
-
   margin: auto;
   margin-top : 27vh;
   margin-bottom: 8vh;
 }
 
 .loginLink{
+  font-family: 'NotoSansCJKkr-Regular';
   border-radius: 0.5em;
   text-align: center;
   width: 50vw;
@@ -24,6 +26,7 @@
   opacity: 0.94;
 }
 .regLink{
+  font-family: 'NotoSansCJKkr-Regular';
   opacity: 0.94;
   border-radius: 0.5em;
   text-align: center;

@@ -1,3 +1,5 @@
+@font-face{font-family: 'NotoSansCJKkr-Light'; src:url('/font/NotoSansCJKkr-hinted/NotoSansCJKkr-Light.otf');}
+@font-face{font-family: 'NotoSansCJKkr-DemiLight'; src:url('/font/NotoSansCJKkr-hinted/NotoSansCJKkr-DemiLight.otf');}
 
 .Logo{
   background-image: url("../img/logo.png");
@@ -10,6 +12,7 @@
   margin-bottom: 14vh;
 }
 ::placeholder{
+  font-family: 'NotoSansCJKkr-Light';
   color: #ffffff;
   opacity: 0.4;
 }
@@ -17,6 +20,8 @@
   margin-left: 23.9vw;
 }
 .inputEmail{
+  text-indent: 1vw;
+  font-family: 'NotoSansCJKkr-Light';
   color: #ffffff;
   width: 52.2vw;
   height: 3.3vh;
@@ -25,6 +30,8 @@
   background-color: rgba( 255, 255, 255, 0);
 }
 .inputPasswd{
+  text-indent: 1vw;
+  font-family: 'NotoSansCJKkr-Light';
   color: #ffffff;
   width: 52.2vw;
   height: 3.3vh;
@@ -33,6 +40,9 @@
   background-color: rgba( 255, 255, 255, 0);
 }
 .loginBtn{
+  line-height: 50%;
+  font-size: 2vh;
+  font-family: 'NotoSansCJKkr-DemiLight';
   margin-top : 2vh;
   opacity: 0.8;
   color: #ffffff;
@@ -42,6 +52,9 @@
   background-color: rgba( 255, 255, 255, 0);
 }
 .regBtn{
+  line-height: 50%;
+  font-size: 2vh;
+  font-family: 'NotoSansCJKkr-DemiLight';
   opacity: 0.8;
   color: #ffffff;
   width: 25.5vw;
