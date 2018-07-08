@@ -69,6 +69,7 @@ body{
   list-style: none;
 }
 .msg{
+  position:relative;
   margin-bottom: 2.6vh;
 }
 .profileImg{
@@ -84,17 +85,24 @@ body{
   font-size: 2vh;
 }
 .msgIndex{
+  padding: 1vw;
+  padding-top: 0;
+  border-radius: 0.4em;
+  background-color: #F5F5F5;
   font-size:2.5vh;
   font-family: 'NotoSansCJKkr-Regular';
   border: 1px solid #0088d7;
-  width: 65vw;
-  margin-left: 6.5vh;
+  width: 60vw;
+  margin-left: 6.8vh;
   white-space:normal;
   word-break: break-all;
 }
 .msgTime{
+  position: absolute;
   font-family: 'NotoSansCJKkr-DemiLight';
   display: inline;
   font-size:2vh;
   color:#6f6f6f;
+  margin-left:76vw;
+  margin-top: -2.5vh;
 }
