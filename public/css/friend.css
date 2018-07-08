@@ -1,3 +1,6 @@
+@font-face{font-family: 'NotoSansCJKkr-Regular'; src:url('/font/NotoSansCJKkr-hinted/NotoSansCJKkr-Regular.otf');}
+@font-face{font-family: 'NotoSansCJKkr-DemiLight'; src:url('/font/NotoSansCJKkr-hinted/NotoSansCJKkr-DemiLight.otf');}
+
 body{
   margin: 0;
   padding: 0;
@@ -69,12 +72,14 @@ body{
   border-radius: 50%;
 }
 .friendName{
+  font-family: 'NotoSansCJKkr-Regular';
   font-weight: bold;
   top:10%;
   position: absolute;
   left:8.5vh;
 }
 .friendEmail{
+  font-family: 'NotoSansCJKkr-Regular';
   position: absolute;
   top:50%;
   left:8.5vh;
