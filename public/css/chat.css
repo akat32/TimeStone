@@ -127,8 +127,8 @@ body{
   margin-bottom: auto;
   margin-left: auto;
   margin-right: 1%;
-  height: calc(70% - 1.5px);
-  width: calc(92% - 3.66vh);
+  height: calc(60% - 1.5px);
+  width: calc(92% - 3.6vh - 1.5px);
   border-radius: 2em;
   border: 1.5px solid lightgray;
   color: #000000;
