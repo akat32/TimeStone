@@ -96,7 +96,8 @@ body{
   font-size:2.4vh;
   font-family: 'NotoSansCJKkr-Regular';
   border: 1px solid #0088d7;
-  width: 60vw;
+  max-width: 60vw;
+  clear: both;
   margin-left: 6.8vh;
   white-space:normal;
   word-break: break-all;
@@ -120,27 +121,27 @@ body{
   top:93.9vh;
 }
 .index{
-  line-height: calc(70% - 1px);
+  line-height: 70%;
   font-size: 2.4vh;
   text-indent: 0.7em;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: auto;
-  margin-right: 1%;
-  height: calc(60% - 1.5px);
-  width: calc(92% - 3.6vh - 1.5px);
+  margin-right: 1.5%;
+  height: 60%;
+  width: 85%;
   border-radius: 2em;
-  border: 1.5px solid lightgray;
+  border: 1px solid lightgray;
   color: #000000;
   background: #f0f0f0;
 }
 .exceptionBtn{
   border-radius: 0.5em;
-  margin-left: calc(3vw - 1.5px);
+  margin-left: 3vw;
   margin-top: auto;
   margin-bottom: auto;
-  border: 1.5px solid lightgray;
+  border: 1px solid lightgray;
   background-color: #f0f0f0;
-  height: 3.6vh;
+  height: 3.5vh;
   width: 3.6vh;
 }
