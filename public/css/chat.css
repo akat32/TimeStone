@@ -121,7 +121,8 @@ body{
   top:93.9vh;
 }
 .index{
-  line-height: 70%;
+  font-family: 'NotoSansCJKkr-Regular';
+  line-height: 60%;
   font-size: 2.4vh;
   text-indent: 0.7em;
   margin-top: auto;
