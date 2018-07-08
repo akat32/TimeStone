@@ -18,10 +18,10 @@ window.onload = ()=>{
     el: "#log",
     data: {
       items: [
-        {img : "", name : "루다", index : "안녕"},
-        {img : "", name : "루다", index : "몰라"},
-        {img : "", name : "루다", index : "안녕"},
-        {img : "", name : "루다", index : "안녕"}
+        {img : "../img/1.jpg", name : "루다", index : "안녕", time : "오전 4:34"},
+        {img : "../img/1.jpg", name : "루다", index : "몰라", time : "오전 4:34"},
+        {img : "../img/1.jpg", name : "루다", index : "안녕", time : "오전 4:34"},
+        {img : "../img/1.jpg", name : "루다", index : "안녕", time : "오전 4:34"}
       ]
     }
   })
