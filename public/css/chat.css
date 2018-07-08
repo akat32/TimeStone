@@ -126,10 +126,9 @@ body{
   text-indent: 0.7em;
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: auto;
   margin-right: 1.5%;
   height: 60%;
-  width: 75%;
+  width: 100%;
   border-radius: 2em;
   border: 1px solid lightgray;
   color: #000000;
@@ -138,10 +137,11 @@ body{
 .exceptionBtn{
   border-radius: 0.5em;
   margin-left: 3vw;
+  margin-right: 3vw;
   margin-top: auto;
   margin-bottom: auto;
   border: 1px solid lightgray;
   background-color: #f0f0f0;
   height: 3.5vh;
-  width: 3.6vh;
+  width: 4vh;
 }
