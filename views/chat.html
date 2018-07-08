@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>TimeStone</title>
     <link rel="stylesheet" href="../css/chat.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi"">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
     <link rel="shortcut icon" href="../img/ic.jpg">
     <script src="https://unpkg.com/vue"></script>
     <script src ="../js/chat.js"></script>
@@ -32,9 +32,10 @@
       </ul>
     </div>
     <div style="margin-top:0.8vh; color:#f0f0f0"> lorem ipsum </div>
-    <div class = "inputMsg">
+    <form class = "inputMsg">
       <div class = "exceptionBtn"></div>
-      <input type="text" class = "index"/>
-    </div>
+      <input type="text" class = "index" placeholder="Input message"/>
+      <input type="submit" class="sendMessage" value=""/>
+    </form>
   </body>
 </html>
